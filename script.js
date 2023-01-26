@@ -80,8 +80,8 @@ function fetchBookmarks() {
     } else {
         // Create bookmarks array in localStorage
         bookmarks = [{
-            name: 'Jacinto Design',
-            url: 'http://jacinto.design',
+            name: 'Firas Dahmani',
+            url: 'linkedin.com/in/firas-dahmani-79468b1a0/',
         }, ];
         localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
     }
