@@ -81,7 +81,7 @@ function fetchBookmarks() {
         // Create bookmarks array in localStorage
         bookmarks = [{
             name: 'Firas Dahmani',
-            url: 'linkedin.com/in/firas-dahmani-79468b1a0/',
+            url: 'https://www.linkedin.com/in/firas-dahmani-79468b1a0/',
         }, ];
         localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
     }
